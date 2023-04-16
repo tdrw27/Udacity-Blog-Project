@@ -1,0 +1,15 @@
+/* BLOCKQUOTE */
+.quote {
+  background-color: #1E203690;
+  border-radius: 7px;
+  border: 1px solid #1E2036;
+}
+
+.quote p {
+  font-family: 'Caveat', cursive;
+  font-size: 1.3em;
+}
+
+.quote figcaption {
+  font-size: 0.9em;
+}

@@ -1,0 +1,21 @@
+.contact-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-link {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.contact-link:link {
+    text-decoration: none;
+}
+
+.icon {
+    margin-right: 1em;
+}

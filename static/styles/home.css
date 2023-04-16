@@ -1,0 +1,45 @@
+/* CARD */
+.home-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 2em auto 2em;
+  width: 95%;
+  max-width: 400px;
+  background-color: #281e3670;
+  border-radius: 7px;
+  gap: 0.5em;
+}
+
+.home-card h2 {
+  line-height: 1em;
+  font-size: 1.1em;
+  text-align: left;
+  padding: 0 0.6em;
+  margin: auto 0;
+}
+
+.img-link {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-card img {
+  width: 100%;
+  border-radius: 7px;
+
+}
+
+.home-card p {
+  font-size: 0.9em;
+  padding: 0 0.6em;
+}
+
+
+.read-here {
+  font-size: 0.9em;
+  line-height: 1em;
+  padding: 10px;
+  
+}

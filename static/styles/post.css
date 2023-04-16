@@ -1,0 +1,77 @@
+/* LAYOUT */
+.main-post {
+  display: flex;
+  flex-flow: column;
+  max-width: 800px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+/* FIGURE */
+figure {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.post-figure {
+  display: flex;
+  align-items: center;
+}
+
+#invaderIMG {
+  max-width: 100%;
+  width: 300px;
+  height: 400px;
+}
+
+/* SECTION */
+section {
+  max-width: 100%;
+  margin-bottom: 3em;
+  padding: 0 1em;
+  text-align: center;
+}
+
+section h2 {
+  font-family: 'Ubuntu', serif;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section p {
+  line-height: 1.5em;
+}
+
+section h3 {
+  font-size: 1em;
+}
+
+
+/* AUTHOR */
+.author blockquote {
+  font: 1.1em 'Caveat', cursive;
+  text-align: center;
+  border-top: 1px solid var(--color3);
+  border-bottom: 1px solid var(--color3);
+  padding: 10px 0;
+}
+
+.author h3 {
+  font-size: 1em;
+  text-decoration:overline;
+}
